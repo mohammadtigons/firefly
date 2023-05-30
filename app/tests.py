@@ -10,11 +10,7 @@ import time
 
 class test(LiveServerTestCase):
     class test(LiveServerTestCase):
-        driver_path = WEBDRIVER_PATH
-        options = webdriver.ChromeOptions()
-        for arg in SELENIUM_OPTIONS:
-                    options.add_argument(arg)
-        driver = webdriver.Chrome(executable_path=driver_path, options=options)
+        driver = webdriver.Chrome()
         driver.get('https://www.google.com')
         time.sleep(9)
         driver.quit()
