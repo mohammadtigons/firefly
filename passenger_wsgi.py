@@ -1,0 +1,1 @@
+from myfire.wsgi import application
