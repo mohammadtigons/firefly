@@ -1,1 +1,3 @@
 django
+webdriver_manager
+selenium
